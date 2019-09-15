@@ -1,0 +1,114 @@
+Enter size of hashtable:5
+
+Enter task number of task you want to perform.
+1)Insert with replacement.
+2)Insert without replacement.
+3)Search for an entry.
+4)Retrieve details of a particular entry
+5)Modify a particular entry.
+6)Delete an entry.
+7)Display table.1
+
+Enter identifier: a
+Enter identifiers initial value:0
+Enter number of times it appeared:1
+Enter line numbers where it appeared:1
+
+Enter if you want to perform another operation(y/n):y
+
+Enter task number of task you want to perform.
+1)Insert with replacement.
+2)Insert without replacement.
+3)Search for an entry.
+4)Retrieve details of a particular entry
+5)Modify a particular entry.
+6)Delete an entry.
+7)Display table.1
+
+Enter identifier: b
+Enter identifiers initial value:1
+Enter number of times it appeared:1
+Enter line numbers where it appeared:2
+
+Enter if you want to perform another operation(y/n):y
+
+Enter task number of task you want to perform.
+1)Insert with replacement.
+2)Insert without replacement.
+3)Search for an entry.
+4)Retrieve details of a particular entry
+5)Modify a particular entry.
+6)Delete an entry.
+7)Display table.2
+
+Enter identifier: c
+Enter identifiers initial value:3
+Enter number of times it appeared:2
+Enter line numbers where it appeared:1
+3
+
+Enter if you want to perform another operation(y/n):y
+
+Enter task number of task you want to perform.
+1)Insert with replacement.
+2)Insert without replacement.
+3)Search for an entry.
+4)Retrieve details of a particular entry
+5)Modify a particular entry.
+6)Delete an entry.
+7)Display table.3
+
+Enter Identifier to be searched: b
+
+Requested Identifier present.
+Enter if you want to perform another operation(y/n):y
+
+Enter task number of task you want to perform.
+1)Insert with replacement.
+2)Insert without replacement.
+3)Search for an entry.
+4)Retrieve details of a particular entry
+5)Modify a particular entry.
+6)Delete an entry.
+7)Display table.5
+
+Enter Identifier whose information is to be modified: c
+Enter serial number of information to be modified.
+1)Initial value.
+2)Line Number where Identifier occurs.2
+Add new line number or delete a line number?(0/1):0
+Enter new line number:4
+
+Enter if you want to perform another operation(y/n):y
+
+Enter task number of task you want to perform.
+1)Insert with replacement.
+2)Insert without replacement.
+3)Search for an entry.
+4)Retrieve details of a particular entry
+5)Modify a particular entry.
+6)Delete an entry.
+7)Display table.6
+
+Enter Identifier to be deleted: c
+
+Enter if you want to perform another operation(y/n):y
+
+Enter task number of task you want to perform.
+1)Insert with replacement.
+2)Insert without replacement.
+3)Search for an entry.
+4)Retrieve details of a particular entry
+5)Modify a particular entry.
+6)Delete an entry.
+7)Display table.7
+  Identifier	Initialization Line numbers 
+0
+1
+2
+ : a	0		1,
+3
+ : b	1		2,
+4
+
+Enter if you want to perform another operation(y/n):

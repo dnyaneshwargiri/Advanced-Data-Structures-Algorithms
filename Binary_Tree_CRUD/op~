@@ -1,0 +1,67 @@
+
+ 1.Create 
+ 2.Display 
+ 3.copy tree
+ 4.delete
+ enter your choice1
+
+enter the data5
+
+ enter the next node's data 7
+
+On which side you want to insert(r/l)r
+
+data is:5-7
+ do you want to insert datay
+
+ enter the next node's data 8
+
+On which side you want to insert(r/l)r
+
+On which side you want to insert(r/l)r
+
+data is:7-8
+ do you want to insert datay
+
+ enter the next node's data 6
+
+On which side you want to insert(r/l)r
+
+On which side you want to insert(r/l)l
+
+data is:7-6
+ do you want to insert datay
+
+ enter the next node's data 4
+
+On which side you want to insert(r/l)l
+
+data is:5-4
+ do you want to insert datan
+
+ 1.Create 
+ 2.Display 
+ 3.copy tree
+ 4.delete
+ enter your choice2
+
+tree is:4 5 6 7 8 
+ 1.Create 
+ 2.Display 
+ 3.copy tree
+ 4.delete
+ enter your choice3
+
+copied tree  using operator overloading:4 5 6 7 8 
+ 1.Create 
+ 2.Display 
+ 3.copy tree
+ 4.delete
+ enter your choice4
+
+after deletion
+ 1.Create 
+ 2.Display 
+ 3.copy tree
+ 4.delete
+ enter your choice

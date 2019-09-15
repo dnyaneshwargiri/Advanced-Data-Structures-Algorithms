@@ -1,0 +1,18 @@
+Enter the size of hash table5
+
+Enter element no 0 9623991867
+
+Enter element no 1 7775006522
+
+Enter element no 2 1234567790
+
+Enter element no 3 9876543210
+
+Enter element no 4 7410258963
+
+Key  :     value  :     chain:
+0     1234567790   1
+1     9876543210   -1
+2     9623991867   3
+3     7775006522   4
+4     7410258963   -1

@@ -1,0 +1,29 @@
+
+Enter expression[(a+b)*(d/e)-[w-e]]
+[(a+b)*(d/e)-[w-e]]
+Postfix expression
+ab+de/*we--
+Inordred Traversssal 
+
+a	
+	
++	
+	
+b	
+	
+*	
+	
+d	
+	
+/	
+	
+e	
+	
+-	
+	
+w	
+	
+-	
+	
+e	
+	

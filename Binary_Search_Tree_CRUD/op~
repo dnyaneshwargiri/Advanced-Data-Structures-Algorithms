@@ -1,0 +1,214 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+************************output*******************************
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit1
+
+ Enter the word:neon
+
+ Enter the Meaning:nobelgas
+
+ Do you want to add more data(y/n):y
+
+ Enter the word:dog
+
+ Enter the Meaning:pet
+
+ Do you want to add more data(y/n):y
+
+ Enter the word:orange
+
+ Enter the Meaning:fruit
+
+ Do you want to add more data(y/n):y
+
+ Enter the word:zebra
+
+ Enter the Meaning:animal
+
+ Do you want to add more data(y/n):y
+
+ Enter the word:apple
+
+ Enter the Meaning:fruit
+
+ Do you want to add more data(y/n):n
+
+ Tree is created
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit2
+
+ Inorder Traversal
+apple	 :fruit
+dog	 :pet
+neon	 :nobelgas
+orange	 :fruit
+zebra	 :animal
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit3
+
+ Enter the word which you want to search:dog
+
+ Data found 
+ Number of comparisons:2
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit3
+
+ Enter the word which you want to search:ant
+
+ Data not found
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit4
+
+ Enter the data to be updated:neon
+
+ Data found
+ Number of comparisons:1neon	nobelgas
+ Enter the meaninglightgas
+
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit2
+
+ Inorder Traversal
+apple	 :fruit
+dog	 :pet
+neon	 :lightgas
+orange	 :fruit
+zebra	 :animal
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit5
+
+ Enter the data which you want to delete:orange
+
+ Data found
+ Only Right
+ Data Deleted.
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit2
+
+ Inorder Traversal
+apple	 :fruit
+dog	 :pet
+neon	 :lightgas
+zebra	 :animal
+
+ Binary search Tree Operation:
+
+ 1.Create 
+ 2.Display Tree 
+ 3.Search the data 
+ 4.update 
+ 5.Delete the node 
+ 6.Reverse
+ 7.Exit6
+
+zebra	 :animal
+neon	 :lightgas
+dog	 :pet
+apple	 :fruit
+
+ 

@@ -1,0 +1,267 @@
+
+
+
+//============================================================================
+// Name        : BST.cpp
+// Author      :
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+class node
+{
+	int data;
+    public:
+	node *lchild,*rchild;
+
+	friend class tree;
+
+
+node()
+{
+  lchild=NULL;
+  rchild=NULL;
+}
+
+
+
+};
+class tree
+{node  *root;
+public:
+
+
+tree()
+	{
+	root=NULL;
+	}
+
+    node* create();
+	void display(node *curr);
+   int height(node *r);
+   void longestpath(node *r);
+   node *swapp(node *r);
+  void getmin(node *r);
+};
+node* tree::create()
+{char ch;
+	do
+{
+node *ptr;
+ptr=new node;
+cout<<"\nEnter data";
+cin>>ptr->data;
+ptr->lchild=NULL;
+ptr->rchild=NULL;
+node *curr;
+curr=new node;
+curr=root;
+if(root==NULL)
+{
+	root=ptr;
+}
+else
+
+{  while(curr!=NULL)
+ {
+	if(ptr->data > curr->data)
+
+   {
+         if(curr->rchild==NULL)
+         {
+        	 curr->rchild =ptr;
+        	 break;
+         }
+         else
+         {
+        	 curr=curr->rchild;
+         }
+
+   }
+   else{
+
+
+         if(curr->lchild==NULL)
+         {
+        	 curr->lchild =ptr;
+        	 break;
+         }
+         else
+         {
+        	 curr=curr->lchild;
+         }
+
+
+
+   }
+ }
+
+}
+
+	cout<<"Do u want to add node";
+
+	cin>>ch;
+}
+while(ch=='Y'||ch=='y');
+return root;
+}
+
+
+void tree::display(node *curr)
+{
+
+
+if(curr!=NULL)
+{
+
+	display(curr->lchild);
+	cout<<"\n"<<curr->data;
+	display(curr->rchild);
+}
+}
+
+int tree::height(node *r)
+{int lh,rh;
+ if(r==NULL)
+	return 0;
+else
+{    lh=height(r->lchild);
+     rh=height(r->rchild);
+    /* if( lh > rh && r->lchild!=NULL)
+     {  cout<<r->lchild->data<<" -> ";
+     }
+      else if( lh < rh && r->rchild!=NULL)
+      { cout<<r->rchild->data<<" -> ";}*/
+     return lh > rh ? lh+1 : rh+1;
+
+}
+
+}
+void tree::longestpath(node *r)
+{
+while(r!=NULL)
+{
+	cout<<r->data<<" -> ";
+	/*height(r->lchild);
+	height(r->rchild);*/
+	if( height(r->lchild)>height(r->rchild))
+	     { r=r->lchild;
+	     }
+	      else
+	      { r=r->rchild;}
+}
+
+}
+node * tree::swapp(node*r)
+{
+	node *j;
+	if(r!=NULL)
+	{
+		j=r->lchild;
+		r->lchild=swapp(r->rchild);
+		r->rchild=swapp(j);
+
+	}
+	return r;
+}
+void tree::getmin(node *r)
+{
+	while(r->lchild!=NULL)
+	{r=r->lchild;
+	}
+	cout<<"\nMin value :"<<r->data;
+
+}
+int main()
+{   int h;
+    node *n;
+	tree t,t1;
+	n=t.create();
+	t.display(n);
+	t.getmin(n);
+	h=t.height(n);
+	cout<<"\nHeight :  "<<h<<"\n";
+	t.longestpath(n);
+	cout<<"\nSwapped tree";
+    n=t.swapp(n);
+    t.display(n);
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+********************/output/*******************
+Enter data10
+Do u want to add nodey
+
+Enter data7
+Do u want to add nodey
+
+Enter data6
+Do u want to add nodey
+
+Enter data4
+Do u want to add nodey
+
+Enter data3
+Do u want to add nodey
+
+Enter data11
+Do u want to add nodey
+
+Enter data23
+Do u want to add nodey
+
+Enter data2
+Do u want to add nodey
+
+Enter data1
+Do u want to add noden
+
+1
+2
+3
+4
+6
+7
+10
+11
+23
+Min value :1
+Height :  7
+10 -> 7 -> 6 -> 4 -> 3 -> 2 -> 1 -> 
+Swapped tree
+23
+11
+10
+7
+6
+4
+3
+2
+1

@@ -1,0 +1,27 @@
+
+Enter the number of cities:4
+
+Enter the adjacency matrix:
+0
+0
+3
+4
+1
+0
+3
+5
+6
+0
+0
+9
+0
+2
+3
+0
+
+Adjacency matrix is :
+cost: city 1to 1= 0	cost: city 1to 2= 0	cost: city 1to 3= 3	cost: city 1to 4= 4	
+cost: city 2to 1= 1	cost: city 2to 2= 0	cost: city 2to 3= 3	cost: city 2to 4= 5	
+cost: city 3to 1= 6	cost: city 3to 2= 0	cost: city 3to 3= 0	cost: city 3to 4= 9	
+cost: city 4to 1= 0	cost: city 4to 2= 2	cost: city 4to 3= 3	cost: city 4to 4= 0	
+

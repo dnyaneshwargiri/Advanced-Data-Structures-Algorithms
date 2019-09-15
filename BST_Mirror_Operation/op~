@@ -1,0 +1,50 @@
+
+Enter data10
+Do u want to add nodey
+
+Enter data7
+Do u want to add nodey
+
+Enter data6
+Do u want to add nodey
+
+Enter data4
+Do u want to add nodey
+
+Enter data3
+Do u want to add nodey
+
+Enter data11
+Do u want to add nodey
+
+Enter data23
+Do u want to add nodey
+
+Enter data2
+Do u want to add nodey
+
+Enter data1
+Do u want to add noden
+
+1
+2
+3
+4
+6
+7
+10
+11
+23
+Min value :1
+Height :  7
+10 -> 7 -> 6 -> 4 -> 3 -> 2 -> 1 -> 
+Swapped tree
+23
+11
+10
+7
+6
+4
+3
+2
+1
